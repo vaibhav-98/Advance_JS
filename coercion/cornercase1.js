@@ -19,7 +19,7 @@ console.log("" + [1,2,undefined,5]);
 console.log(0 - "010"); // decimal number
 console.log(0 - "O10");
 
-console.log(0 - 010); // octal number
+//console.log(0 - 010); // octal number
 
 console.log(0 - "0xb"); // hexadecimal number
 console.log(0 - 0xb);
