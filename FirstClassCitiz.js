@@ -10,15 +10,15 @@ a()
 
 //===========================
 
-// let b= {
+let b= {
 
-//     name : "vaibhav tripathi ",
-//     qalif : function () {
-//         console.log ("I graduated from FGIPS")
-//     }
-// }
+    name : "Abhay  ",
+    qalif : function () {
+        console.log ("I graduated from FGIPS")
+    }
+}
 
-// b.qalif()
+b.qalif()
 
 
 

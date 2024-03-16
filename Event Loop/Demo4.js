@@ -14,3 +14,5 @@ setTimeout(() => console.log("Timer 1"))
 setImmediate(() => console.log("Immediate callback"))
 
 for(let i = 0 ; i < 10000000000 ; i++) {}
+
+ 

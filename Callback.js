@@ -1,20 +1,20 @@
 //============normal ============//
 
-// const funA = () => {
+const funA = () => {
 
-//     setTimeout (function () {
+    setTimeout (function () {
 
-//         console.log ("welcome funA") 
-//        // funB ()
-//     } ,3000)
-// } 
+        console.log ("welcome funA") 
+       // funB ()
+    } ,3000)
+} 
 
-// const funB = () => {
-//     console.log ("welcome funB") 
-// }
+const funB = () => {
+    console.log ("welcome funB") 
+}
 
-// funA() 
-// //funB ()
+funA() 
+funB ()
 
 
 // ================Callback function =================//
@@ -23,7 +23,7 @@ const perOne = ( friend ,  callfrnd )=> {
     console.log(`I am busy right now . I am talking to ${friend}.I will call you back`)
 
      callfrnd ();
-
+     
 }
 
 const perTwo = () => {
