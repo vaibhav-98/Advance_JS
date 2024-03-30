@@ -25,12 +25,30 @@ const p = createPromisewithTimeout();
 console.log("we are now  waiting for the promise to complete");
 console.log("Currently my promise object is like .....", p);
 
+
+console.log("Going to register my  1st handler ");
 p.then(
-    function fullfillHandler(value) { console.log("Inside fullfill hander with value", value);},
-     function rejectionHandler(value) { console.log("Inside rejection handler with value ", value);} 
-     )
+    function fullfillHandler(value) { 
+        console.log("Inside fullfill hander with value", value);
+        console.log("Promise after fulfilment ",p);
+    },
+     function rejectionHandler(value) { 
+        console.log("Inside rejection handler with value ", value);
+        console.log("Promise affter  rectection", p);
+    }) ;
 
 
+
+    console.log("Going to register my  1st handler ");
+p.then(
+    function fullfillHandler(value) { 
+        console.log("Inside fullfill hander with value", value);
+        console.log("Promise after fulfilment ",p);
+    },
+     function rejectionHandler(value) { 
+        console.log("Inside rejection handler with value ", value);
+        console.log("Promise affter  rectection", p);
+    }) ;
 
 
 
