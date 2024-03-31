@@ -31,10 +31,14 @@ p.then(
     function fullfillHandler(value) { 
         console.log("Inside fullfill 1 hander  with value", value);
         console.log("Promise after fulfilment ",p);
+        setTimeout( function t() { console.log("Timer start 0ms ")},0)
+        console.log("time exit in fullgillhander 0 ms ");
     },
      function rejectionHandler(value) { 
         console.log("Inside rejection 1 handler with value ", value);
         console.log("Promise affter  rectection", p);
+        setTimeout( function t() { console.log("Timer start 0ms ")},0)
+        console.log("time exit in rejectionHandler 0 ms ");
     }) ;
 
 
